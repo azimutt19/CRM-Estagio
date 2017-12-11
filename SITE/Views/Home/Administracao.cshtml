@@ -1,0 +1,212 @@
+﻿@{
+    ViewBag.Title = "Administracao";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+@* Botões *@
+<div class="button-mg space-between-divs" role="group" aria-label="...">
+    <h1>@ViewBag.Message</h1>
+</div>
+
+<!-- Modal Criar -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="box box-warning">
+            <div class="box-header with-border">
+                <h3 class="box-title">Novo Utilizador</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <form role="form">
+                    <!-- text input -->
+                    <div class="form-group">
+                        <label>ID:</label>
+                        <input class="form-control id-width" placeholder="" type="text">
+                        <div class="form-group">
+                            <label>Permissões:</label>
+                            <select class="form-control">
+                                <option>Administrador</option>
+                                <option>Utilizador</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input class="form-control" placeholder="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Password:</label>
+                        <input class="form-control" placeholder="" type="password">
+                    </div>
+                    <div class="form-group">
+                        <label>Nome:</label>
+                        <input class="form-control" placeholder="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Telemóvel:</label>
+                        <input class="form-control" placeholder="" type="text">
+                    </div>
+                </form>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <button type="submit" class="btn btn-success pull-left" data-dismiss="modal">Criar</button>
+                <button type="button" class="btn btn-danger pull-right" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+@* fim Modal Criar *@
+
+<!-- Modal Editar -->
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="box box-warning">
+            <div class="box-header with-border">
+                <h3 class="box-title">Editar Utilizador</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <form role="form">
+                    <!-- text input -->
+                    <div class="form-group">
+                        <label>ID:</label>
+                        <input class="form-control" placeholder="" type="text">
+                        <div class="form-group">
+                            <label>Permissões:</label>
+                            <select class="form-control">
+                                <option>Administrador</option>
+                                <option>Utilizador</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input class="form-control" placeholder="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Password:</label>
+                        <input class="form-control" placeholder="" type="password">
+                    </div>
+                    <div class="form-group">
+                        <label>Nome:</label>
+                        <input class="form-control" placeholder="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Telemóvel:</label>
+                        <input class="form-control" placeholder="" type="text">
+                    </div>
+                </form>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <button type="button" class="btn btn-danger pull-right" data-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-success pull-left" data-dismiss="modal">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+@* fim Modal editar *@
+
+<!-- Modal Apagar -->
+<div id="myModal3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Apagar Utilizador</h3>
+            </div>
+            <div class="modal-body modal-margin">
+                <p>Tem a certeza que pretende apagar?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Sim</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Não</button>
+            </div>
+        </div>
+    </div>
+</div> 
+@* fim Modal Apagar *@
+
+<div class="row space-between-divs">    
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 padding-adjust">
+        <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">Novo Utilizador</button>
+    </div>
+</div>
+
+
+<div class="box space-between-divs">
+    <div class="box-header">
+        <h3 class="box-title">Utilizadores</h3>
+    </div>
+    <div class="box-body no-padding">       
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th class="hidden-mobile-s col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center sorting_asc">ID</th>
+                    <th class="col-xs-5 col-sm-3 col-md-3 col-lg-3">Username</th>
+                    <th class="hidden-xs col-sm-2 col-md-2 col-lg-2 text-center">Permissões</th>
+                    <th class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">Detalhes</th>
+                    <th class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">Editar</th>
+                    <th class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">Apagar</th>
+                </tr>
+                <tr>
+                    <td class="hidden-mobile-s col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">1</td>
+                    <td class="col-xs-5 col-sm-3 col-md-3 col-lg-3">Utilizador1</td>
+                    <td class="hidden-xs col-sm-2 col-md-2 col-lg-2 text-center">Utilizador</td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="~/Home/Detalhesutilizador"><i data-toggle="modal" data-target="#ModalDetalhes" class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal2" class="aligner pointer fa fa-pencil" aria-hidden="true"></i></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal3" class="aligner pointer fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td class="hidden-mobile-s col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">2</td>
+                    <td class="col-xs-5 col-sm-3 col-md-3 col-lg-3">Utilizador2</td>
+                    <td class="hidden-xs col-sm-2 col-md-2 col-lg-2 text-center">Administrador</td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="~/Home/Detalhesutilizador"><i data-toggle="modal" data-target="#ModalDetalhes" class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal2" class="aligner pointer fa fa-pencil" aria-hidden="true"></i></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal3" class="aligner pointer fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td class="hidden-mobile-s col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">3</td>
+                    <td class="col-xs-5 col-sm-3 col-md-3 col-lg-3">Utilizador3</td>
+                    <td class="hidden-xs col-sm-2 col-md-2 col-lg-2 text-center">Administrador</td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="~/Home/Detalhesutilizador"><i data-toggle="modal" data-target="#ModalDetalhes" class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal2" class="aligner pointer fa fa-pencil" aria-hidden="true"></i></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal3" class="aligner pointer fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td class="hidden-mobile-s col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">4</td>
+                    <td class="col-xs-5 col-sm-3 col-md-3 col-lg-3">Utilizador4</td>
+                    <td class="hidden-xs col-sm-2 col-md-2 col-lg-2 text-center">Utilizador</td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="~/Home/Detalhesutilizador"><i data-toggle="modal" data-target="#ModalDetalhes" class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal2" class="aligner pointer fa fa-pencil" aria-hidden="true"></i></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal3" class="aligner pointer fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td class="hidden-mobile-s col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">5</td>
+                    <td class="col-xs-5 col-sm-3 col-md-3 col-lg-3">Utilizador5</td>
+                    <td class="hidden-xs col-sm-2 col-md-2 col-lg-2 text-center">Administrador</td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="~/Home/Detalhesutilizador"><i data-toggle="modal" data-target="#ModalDetalhes" class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal2" class="aligner pointer fa fa-pencil" aria-hidden="true"></i></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal3" class="aligner pointer fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td class="hidden-mobile-s col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">6</td>
+                    <td class="col-xs-5 col-sm-3 col-md-3 col-lg-3">Utilizador6</td>
+                    <td class="hidden-xs col-sm-2 col-md-2 col-lg-2 text-center">Utilizador</td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="~/Home/Detalhesutilizador"><i data-toggle="modal" data-target="#ModalDetalhes" class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal2" class="aligner pointer fa fa-pencil" aria-hidden="true"></i></td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><i data-toggle="modal" data-target="#myModal3" class="aligner pointer fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

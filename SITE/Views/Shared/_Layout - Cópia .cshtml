@@ -1,0 +1,120 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>@ViewBag.Title - CRM</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @*@Styles.Render("~/Content/font-awesome/css/font-awesome.min.css")*@
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top lower-res">
+
+            <div class="nav">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="col-md-10">
+                    @Html.ActionLink("ComputedLife CRM", "", "", new { area = "" }, new { @class = "navbar-brand" }) @*retirar hiperligação*@
+
+                    @* search bar *@
+                    <div class="col-md-2 col-xs-6 col-sm-12 top-searchbar">
+                        <div class="search-bar">
+                            <div class="input-group stylish-input-group crmsearch">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="input-group-addon">
+                                    <button type="submit">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 border-d">
+                    <div class="head-menu">
+                        <i class="fa fa-bell-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-1 border-d">
+                    <div class="btn-group head-menu">
+                        <button type="button" class="btn btn-default users-pos-head button-changecolor">Utilizador</button>
+                        <button type="button" class="btn .btn-primary dropdown-toggle button-changecolor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret arrow-color"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="../Home/Index" id="aaa">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                @*<ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>*@
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+    @* SIDEBAR *@
+    <nav class="navbar navbar-default sidebar sidebar-crm" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../Home/Homepage">Homepage<i class="fa fa-home fa-2x ico" aria-hidden="true"></i></a></li>
+                    <li><a href="../Home/Administracao">Administração<i class="fa fa-user fa-2x icomm" aria-hidden="true"></i></a></li>
+                    <li><a href="../Home/Clientes">Clientes<i class="fa fa-users fa-2x ico" aria-hidden="true"></i></a></li>
+                    <li><a href="../Home/Empresas">Empresas<i class="fa fa-suitcase fa-2x ico" aria-hidden="true"></i></a></li>
+                    <li><a href="../Home/Agenda">Agenda<i class="fa fa-calendar fa-2x icom" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container body-content">
+        @RenderBody()  
+    </div>
+    @*<hr class="footer-p"/>*@
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ComputedLife</p>
+        </footer>
+    
+    
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/computedlife.js"></script>
+    
+</body>
+</html>

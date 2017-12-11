@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CRMModelStoreContainer" CdmEntityContainer="CRMEntities">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="CRMModel.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="Id_cliente" ColumnName="Id_cliente" />
+          <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+          <ScalarProperty Name="Id_estado" ColumnName="Id_estado" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="Morada" ColumnName="Morada" />
+          <ScalarProperty Name="Localidade" ColumnName="Localidade" />
+          <ScalarProperty Name="Cod_postal" ColumnName="Cod_postal" />
+          <ScalarProperty Name="NIF" ColumnName="NIF" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telemovel" ColumnName="Telemovel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empresas">
+      <EntityTypeMapping TypeName="CRMModel.Empresas">
+        <MappingFragment StoreEntitySet="Empresas">
+          <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+          <ScalarProperty Name="Cod_empresa" ColumnName="Cod_empresa" />
+          <ScalarProperty Name="Nome_empresa" ColumnName="Nome_empresa" />
+          <ScalarProperty Name="Morada" ColumnName="Morada" />
+          <ScalarProperty Name="Localidade" ColumnName="Localidade" />
+          <ScalarProperty Name="NIF" ColumnName="NIF" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telemovel" ColumnName="Telemovel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estados">
+      <EntityTypeMapping TypeName="CRMModel.Estados">
+        <MappingFragment StoreEntitySet="Estados">
+          <ScalarProperty Name="Id_estado" ColumnName="Id_estado" />
+          <ScalarProperty Name="nome_estado" ColumnName="nome_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Eventos">
+      <EntityTypeMapping TypeName="CRMModel.Eventos">
+        <MappingFragment StoreEntitySet="Eventos">
+          <ScalarProperty Name="Id_evento" ColumnName="Id_evento" />
+          <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+          <ScalarProperty Name="Id_cliente" ColumnName="Id_cliente" />
+          <ScalarProperty Name="Assunto" ColumnName="Assunto" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Utilizadores">
+      <EntityTypeMapping TypeName="CRMModel.Utilizadores">
+        <MappingFragment StoreEntitySet="Utilizadores">
+          <ScalarProperty Name="Id_utilizadores" ColumnName="Id_utilizadores" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telemovel" ColumnName="Telemovel" />
+          <ScalarProperty Name="Previlegios" ColumnName="Previlegios" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Cliente_Empresa" TypeName="CRMModel.Cliente_Empresa" StoreEntitySet="Cliente_Empresa">
+      <EndProperty Name="Clientes">
+        <ScalarProperty Name="Id_cliente" ColumnName="Id_cliente" />
+      </EndProperty>
+      <EndProperty Name="Empresas">
+        <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Utilizadores_Evento" TypeName="CRMModel.Utilizadores_Evento" StoreEntitySet="Utilizadores_Evento">
+      <EndProperty Name="Eventos">
+        <ScalarProperty Name="Id_evento" ColumnName="Id_evento" />
+      </EndProperty>
+      <EndProperty Name="Utilizadores">
+        <ScalarProperty Name="Id_utilizadores" ColumnName="Id_utilizadores" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

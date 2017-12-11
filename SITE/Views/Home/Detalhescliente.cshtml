@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "Detalhes do Cliente";
+    Layout = "~/Views/Shared/_LayoutAgenda.cshtml";
+}
+
+
+
+
+
+@* titulo *@
+<div class="button-mg space-between-divs" role="group" aria-label="...">
+    <h1 class="titlemargin">@ViewBag.Message</h1>
+</div>
+@* fim titulo *@
+
+<div class="box box-primary">
+    @*<div class="box-header with-border">
+            <h3 class="box-title"></h3>
+        </div>*@
+    <!-- /.box-header -->
+    <!-- form start -->
+    <form role="form">
+        <div class="row">
+           
+                <div class="box-body">
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <div class="form-group col-md-4">
+                                <label for="id">ID</label>
+                                <input type="text" readonly="readonly" class="form-control" placeholder="ID" />
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="estado">Estado</label>
+                                <input type="text" readonly="readonly" class="form-control col-md-6 pull-right" placeholder="Estado" />
+                            </div>
+                       
+                        <div class="form-group col-md-4">
+                            <label for="nome">Nome</label>
+                            <input type="text" readonly="readonly" class="form-control" placeholder="Nome" />
+                        </div>
+                             </div>
+                        <div class="form-group col-md-6">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" readonly="readonly" class="form-control" placeholder="Empresa" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="cargo">Cargo na Empresa</label>
+                            <input type="text" readonly="readonly" class="form-control" placeholder="Cargo na Empresa" />
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="morada">Morada</label>
+                            <input type="text" readonly="readonly" class="form-control" placeholder="Morada" />
+                        </div>
+                        <div>
+                            <div class="form-group col-md-6">
+                                <label for="telemovel">Telemóvel</label>
+                                <input type="text" readonly="readonly" class="form-control" placeholder="Telemóvel" />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email</label>
+                                <input type="text" readonly="readonly" class="form-control" placeholder="Email" />
+                            </div>
+                        </div>
+
+
+                        <div class="form-group col-md-12">
+                            <label>Notas</label>
+                            <textarea class="form-control" rows="5" placeholder="Escrever ..."></textarea>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input class="btn btn-danger pull-right" Type="button" VALUE="Voltar" onClick="history.go(-1);return true;">
+                            <button class="btn btn-success pull-left">Guardar</button> 
+                        </div>
+
+                    </div>
+                <!-- /.box-body -->
+                <div class="col-md-4">
+                    <div id="calendar"></div>
+                </div>
+            </div>
+            </div>
+      
+    </form>
+</div>
+
+

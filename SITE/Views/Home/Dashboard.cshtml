@@ -1,0 +1,210 @@
+﻿@{
+    ViewBag.Title = "Detalhes do Cliente";
+    Layout = "~/Views/Shared/_LayoutAgenda.cshtml";
+}
+
+
+
+
+
+@* titulo *@
+<div class="button-mg space-between-divs" role="group" aria-label="...">
+    <h1 class="titlemargin">@ViewBag.Message</h1>
+</div>
+@* fim titulo *@
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Pesquisa</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body limitheight">
+                <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+                                <thead>
+                                    <tr role="row">
+                                        <th class="sorting_asc hidden-mobile-s" tabindex="0" aria-sort="ascending" @*aria-label="Rendering engine: activate to sort column descending"*@>#</th>
+                                        <th class="sorting" tabindex="0" @*aria-label="Browser: activate to sort column ascending"*@>Nome</th>
+                                        <th class="sorting hidden-xs" tabindex="0" @*aria-label="Platform(s): activate to sort column ascending"*@>Morada</th>
+                                        <th class="sorting" tabindex="0" @*aria-label="Engine version: activate to sort column ascending"*@>Empresa</th>
+                                        <th class="sorting hidden-xs" tabindex="0" @*aria-label="CSS grade: activate to sort column ascending*@ ">Localidade</th>
+                                        <th class="sorting hidden-sm hidden-xs" tabindex="0" @*aria-label="CSS grade: activate to sort column ascending*@ ">Codigo-Postal</th>
+                                        <th class="sorting" tabindex="0" @*aria-label="CSS grade: activate to sort column ascending*@ ">Detalhes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">2</td>
+                                        <td>Jose Silva</td>
+                                        <td class="hidden-xs">Avenida hhhhhh nº5 3ºesq</td>
+                                        <td>Worten</td>
+                                        <td class="hidden-xs">Lisboa</td>
+                                        <td class="hidden-sm hidden-xs">3245-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">1</td>
+                                        <td>Andre Silva</td>
+                                        <td class="hidden-xs">Avenida whatever nº5 3ºesq</td>
+                                        <td>Computed Life</td>
+                                        <td class="hidden-xs">Mem-Martins</td>
+                                        <td class="hidden-sm hidden-xs">2745-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">2</td>
+                                        <td>Jose Silva</td>
+                                        <td class="hidden-xs">Avenida hhhhhh nº5 3ºesq</td>
+                                        <td>Worten</td>
+                                        <td class="hidden-xs">Lisboa</td>
+                                        <td class="hidden-sm hidden-xs">3245-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">1</td>
+                                        <td>Andre Silva</td>
+                                        <td class="hidden-xs">Avenida whatever nº5 3ºesq</td>
+                                        <td>Computed Life</td>
+                                        <td class="hidden-xs">Mem-Martins</td>
+                                        <td class="hidden-sm hidden-xs">2745-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">2</td>
+                                        <td>Jose Silva</td>
+                                        <td class="hidden-xs">Avenida hhhhhh nº5 3ºesq</td>
+                                        <td>Worten</td>
+                                        <td class="hidden-xs">Lisboa</td>
+                                        <td class="hidden-sm hidden-xs">3245-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">1</td>
+                                        <td>Andre Silva</td>
+                                        <td class="hidden-xs">Avenida whatever nº5 3ºesq</td>
+                                        <td>Computed Life</td>
+                                        <td class="hidden-xs">Mem-Martins</td>
+                                        <td class="hidden-sm hidden-xs">2745-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">2</td>
+                                        <td>Jose Silva</td>
+                                        <td class="hidden-xs">Avenida hhhhhh nº5 3ºesq</td>
+                                        <td>Worten</td>
+                                        <td class="hidden-xs">Lisboa</td>
+                                        <td class="hidden-sm hidden-xs">3245-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">1</td>
+                                        <td>Andre Silva</td>
+                                        <td class="hidden-xs">Avenida whatever nº5 3ºesq</td>
+                                        <td>Computed Life</td>
+                                        <td class="hidden-xs">Mem-Martins</td>
+                                        <td class="hidden-sm hidden-xs">2745-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">2</td>
+                                        <td>Jose Silva</td>
+                                        <td class="hidden-xs">Avenida hhhhhh nº5 3ºesq</td>
+                                        <td>Worten</td>
+                                        <td class="hidden-xs">Lisboa</td>
+                                        <td class="hidden-sm hidden-xs">3245-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">1</td>
+                                        <td>Andre Silva</td>
+                                        <td class="hidden-xs">Avenida whatever nº5 3ºesq</td>
+                                        <td>Computed Life</td>
+                                        <td class="hidden-xs">Mem-Martins</td>
+                                        <td class="hidden-sm hidden-xs">2745-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1 hidden-mobile-s">2</td>
+                                        <td>Jose Silva</td>
+                                        <td class="hidden-xs">Avenida hhhhhh nº5 3ºesq</td>
+                                        <td>Worten</td>
+                                        <td class="hidden-xs">Lisboa</td>
+                                        <td class="hidden-sm hidden-xs">3245-369</td>
+                                        <td class="col-md-1"><a href="Detalhescliente"><i class="aligner pointer fa fa fa-file icon-cog" aria-hidden="true"></i></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.box-body -->
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Eventos de Hoje</h3>
+            </div>
+            <div class="box-body">
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+@* Segunda Tabela *@
+
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Eventos de Hoje</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body no-padding">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th class="col-md-1">#</th>
+                    <th class="col-md-2">Evento</th>
+                    <th class="col-md-3">Cliente</th>
+                    <th class="col-md-2">Empresa</th>
+                    <th class="col-md-2">Assunto</th>
+                    <th class="col-md-2">Hora</th>
+
+                </tr>
+                <tr>
+                    <td class="col-md-1">1</td>
+                    <td class="col-md-2">Reunião</td>
+                    <td class="col-md-3">Manuel</td>
+                    <td class="col-md-2">ComputedLife</td>
+                    <td class="col-md-2">Site</td>
+                    <td class="col-md-2">8:00h</td>
+                </tr>
+                <tr>
+                    <td class="col-md-1">1</td>
+                    <td class="col-md-2">Reunião</td>
+                    <td class="col-md-3">Manuel</td>
+                    <td class="col-md-2">ComputedLife</td>
+                    <td class="col-md-2">Site</td>
+                    <td class="col-md-2">8:00h</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- /.box-body -->
+</div>
+@* Fim Segunda Tabela *@
+
+
+
+
+
+
+
+
+
+

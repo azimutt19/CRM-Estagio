@@ -1,0 +1,289 @@
+C:\Users\worksation4\Desktop\computedlife crm\SITE\obj\Debug\SITE.csprojResolveAssemblyReference.cache
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\ApplicationInsights.config
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\csc.exe
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\csc.exe.config
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\csc.rsp
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\csi.exe
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\csi.rsp
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\System.AppContext.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\vbc.exe
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\vbc.exe.config
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\vbc.rsp
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\VBCSCompiler.exe
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\SITE.dll.config
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\SITE.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\SITE.pdb
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Antlr3.Runtime.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\EntityFramework.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\EntityFramework.SqlServer.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.Web.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Newtonsoft.Json.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Owin.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Helpers.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Mvc.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Optimization.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Razor.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Razor.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\WebGrease.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Helpers.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Mvc.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Optimization.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.Razor.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Razor.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Antlr3.Runtime.pdb
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Newtonsoft.Json.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\EntityFramework.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\EntityFramework.SqlServer.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\bin\Microsoft.AI.Web.xml
+C:\Users\worksation4\Desktop\computedlife crm\SITE\obj\Debug\SITE.dll
+C:\Users\worksation4\Desktop\computedlife crm\SITE\obj\Debug\SITE.pdb
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\ApplicationInsights.config
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\csc.exe
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\csc.exe.config
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\csc.rsp
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\csi.exe
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\csi.rsp
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\System.AppContext.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\vbc.exe
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\vbc.exe.config
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\vbc.rsp
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\VBCSCompiler.exe
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\SITE.dll.config
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\SITE.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\SITE.pdb
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Antlr3.Runtime.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\EntityFramework.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\EntityFramework.SqlServer.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.Web.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Newtonsoft.Json.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Owin.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Helpers.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Mvc.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Optimization.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Razor.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Razor.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\WebGrease.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Helpers.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Mvc.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Optimization.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.Razor.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\System.Web.WebPages.Razor.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Antlr3.Runtime.pdb
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Newtonsoft.Json.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\EntityFramework.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\EntityFramework.SqlServer.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\bin\Microsoft.AI.Web.xml
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\obj\Debug\SITE.csprojResolveAssemblyReference.cache
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\obj\Debug\SITE.dll
+C:\Users\WORSTATION7\Desktop\computedlife crm\SITE\obj\Debug\SITE.pdb
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\ApplicationInsights.config
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\csc.exe
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\csc.exe.config
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\csc.rsp
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\csi.exe
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\csi.rsp
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\System.AppContext.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\vbc.exe
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\vbc.exe.config
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\vbc.rsp
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\SITE.dll.config
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\SITE.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\SITE.pdb
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Antlr3.Runtime.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\EntityFramework.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\EntityFramework.SqlServer.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.Web.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Newtonsoft.Json.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Owin.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Helpers.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Mvc.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Optimization.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Razor.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.WebPages.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\WebGrease.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Helpers.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Mvc.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Optimization.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.Razor.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.WebPages.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Antlr3.Runtime.pdb
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Newtonsoft.Json.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\EntityFramework.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\EntityFramework.SqlServer.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\bin\Microsoft.AI.Web.xml
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\obj\Debug\SITE.csprojResolveAssemblyReference.cache
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\obj\Debug\SITE.csproj.CoreCompileInputs.cache
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\obj\Debug\SITE.dll
+C:\Users\Pezinho\Desktop\Curso de Programação + Estágio\Estágio\computedlife crm\SITE\obj\Debug\SITE.pdb

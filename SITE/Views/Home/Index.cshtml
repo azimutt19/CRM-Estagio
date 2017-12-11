@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+
+    Layout = null;
+    //Layout = "~/Content/web/_layout.cshtml";
+}
+
+
+
+
+@Styles.Render("~/Content/css")
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Computed Life Login</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    @*<link rel="stylesheet" href="~/Content/template/bower_components/bootstrap/dist/css/bootstrap.min.css">*@ <!--sem mudança aparente-->
+    <!-- Font Awesome -->
+    @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">*@ <!--sem mudança aparente-->
+    <!-- Ionicons -->
+    @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">*@ <!--sem mudança aparente-->
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/Content/template/dist/css/AdminLTE.min.css"> <!--skin da box-->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/Content/template/bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- Computedlife Custom CSS -->
+    <link rel="stylesheet" href="~/Content/computedlife/css/custom.css">
+</head>
+<body class="hold-transition computedlifebg sidebar-mini">
+    <div class="wrapper">
+        <!-- Horizontal Form -->
+        <div class="container">
+            <div class="aligner logocomputedlife">
+                <img src="~/Content/computedlife/img/ComputedLife-Logo.svg" height="150" />
+            </div>
+            <div class="aligner">
+                <div class="box box-info box-centered mtop col-md-10">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Login</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                    <form class="form-horizontal">
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                    <i class="fa fa-envelope thenvelope " aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    <i class="fa fa-unlock-alt thepassword" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"><span id="rememberme">Lembrar</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+
+                        <div class="box-footer">
+                            <button class="btn btn-default pull-right" type="submit">Cancelar</button>
+                            <a href="~/Home/Dashboard" class="btn btn-primary pull-left"> Entrar</a>
+                        </div>
+
+                        <!-- /.box-footer -->
+                    </form>
+                </div>
+            </div>
+            
+        </div>@*container*@
+        <!-- /.box -->
+    </div>
+    <!-- jQuery 3 -->
+    <script src="~/Content/template/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="~/Content/computedlife/js/index.js"></script>
+</body>

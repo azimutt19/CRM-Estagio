@@ -1,0 +1,105 @@
+﻿@{
+    ViewBag.Title = "Homepage";
+
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+
+<h1 class="title">@ViewBag.Message</h1>
+
+
+<div class="input-w space-between-divs">
+    @*<label for="Pesquisa" class="search-label">Pesquisar por:</label>*@
+    <div class="search-bar search_home">
+        <div class="input-group stylish-input-group">
+            <input type="text" class="form-control searchbar-width" placeholder="Procurar por..." />
+            @*<span class="input-group-addon">
+                <button type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </span>*@
+        </div>
+    </div>
+</div>
+
+<div class="box space-between-divs">
+    <div class="box-header">
+        <h3 class="box-title">Nome da Pesquisa</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body no-padding">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th class="col-md-1">#</th>
+                    <th class="col-md-2">Nome</th>
+                    <th class="col-md-3">Morada</th>
+                    <th class="col-md-2">Empresa</th>
+                    <th class="col-md-2">Localidade</th>
+                    <th class="col-md-2">Código-Postal</th>
+                    
+                </tr>
+                <tr>
+                    <td class="col-md-1">1</td>
+                    <td class="col-md-2">Andre Silva</td>
+                    <td class="col-md-3">Avenida whatever nº5 3ºesq</td>
+                    <td class="col-md-2">Computed Life</td>
+                    <td class="col-md-2">Mem-Martins</td>
+                    <td class="col-md-2">2745-369</td>
+                </tr>
+                <tr>
+                    <td class="col-md-1">1</td>
+                    <td class="col-md-2">Andre Silva</td>
+                    <td class="col-md-3">Avenida whatever nº5 3ºesq</td>
+                    <td class="col-md-2">Computed Life</td>
+                    <td class="col-md-2">Mem-Martins</td>
+                    <td class="col-md-2">2745-369</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- /.box-body -->
+</div>
+
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Eventos de Hoje</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body no-padding">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th class="col-md-1">#</th>
+                    <th class="col-md-2">Evento</th>
+                    <th class="col-md-3">Cliente</th>
+                    <th class="col-md-2">Empresa</th>
+                    <th class="col-md-2">Assunto</th>
+                    <th class="col-md-2">Hora</th>
+
+                </tr>
+                <tr>
+                    <td class="col-md-1">1</td>
+                    <td class="col-md-2">Reunião</td>
+                    <td class="col-md-3">Manuel</td>
+                    <td class="col-md-2">ComputedLife</td>
+                    <td class="col-md-2">Site</td>
+                    <td class="col-md-2">8:00h</td>
+                </tr>
+                <tr>
+                    <td class="col-md-1">1</td>
+                    <td class="col-md-2">Reunião</td>
+                    <td class="col-md-3">Manuel</td>
+                    <td class="col-md-2">ComputedLife</td>
+                    <td class="col-md-2">Site</td>
+                    <td class="col-md-2">8:00h</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- /.box-body -->
+</div>
+
+
+
+

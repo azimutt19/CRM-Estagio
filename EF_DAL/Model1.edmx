@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CRMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cliente_Empresa">
+          <Key>
+            <PropertyRef Name="Id_cliente" />
+            <PropertyRef Name="Id_empresa" />
+          </Key>
+          <Property Name="Id_cliente" Type="int" Nullable="false" />
+          <Property Name="Id_empresa" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="Id_cliente" />
+          </Key>
+          <Property Name="Id_cliente" Type="int" Nullable="false" />
+          <Property Name="Id_empresa" Type="int" Nullable="false" />
+          <Property Name="Id_estado" Type="int" Nullable="false" />
+          <Property Name="Nome" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DN" Type="date" Nullable="false" />
+          <Property Name="Morada" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Localidade" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Cod_postal" Type="nchar" MaxLength="8" Nullable="false" />
+          <Property Name="NIF" Type="nchar" MaxLength="9" Nullable="false" />
+          <Property Name="Codigo" Type="int" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Telemovel" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Empresas">
+          <Key>
+            <PropertyRef Name="Id_empresa" />
+          </Key>
+          <Property Name="Id_empresa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Cod_empresa" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nome_empresa" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Morada" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Localidade" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIF" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Telemovel" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Estados">
+          <Key>
+            <PropertyRef Name="Id_estado" />
+          </Key>
+          <Property Name="Id_estado" Type="int" Nullable="false" />
+          <Property Name="nome_estado" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Eventos">
+          <Key>
+            <PropertyRef Name="Id_evento" />
+          </Key>
+          <Property Name="Id_evento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id_empresa" Type="int" Nullable="false" />
+          <Property Name="Id_cliente" Type="int" Nullable="false" />
+          <Property Name="Assunto" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Notas" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Data" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Utilizadores">
+          <Key>
+            <PropertyRef Name="Id_utilizadores" />
+          </Key>
+          <Property Name="Id_utilizadores" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Username" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Telemovel" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Previlegios" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Utilizadores_Evento">
+          <Key>
+            <PropertyRef Name="Id_utilizadores" />
+            <PropertyRef Name="Id_evento" />
+          </Key>
+          <Property Name="Id_utilizadores" Type="int" Nullable="false" />
+          <Property Name="Id_evento" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Cliente_Empresa_ToClientes">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+          <End Role="Cliente_Empresa" Type="Self.Cliente_Empresa" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="Id_cliente" />
+            </Principal>
+            <Dependent Role="Cliente_Empresa">
+              <PropertyRef Name="Id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cliente_Empresa_ToEmpresas">
+          <End Role="Empresas" Type="Self.Empresas" Multiplicity="1" />
+          <End Role="Cliente_Empresa" Type="Self.Cliente_Empresa" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresas">
+              <PropertyRef Name="Id_empresa" />
+            </Principal>
+            <Dependent Role="Cliente_Empresa">
+              <PropertyRef Name="Id_empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Clientes_ToEmpresas">
+          <End Role="Empresas" Type="Self.Empresas" Multiplicity="1" />
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresas">
+              <PropertyRef Name="Id_empresa" />
+            </Principal>
+            <Dependent Role="Clientes">
+              <PropertyRef Name="Id_empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Clientes_ToEstados">
+          <End Role="Estados" Type="Self.Estados" Multiplicity="1" />
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Estados">
+              <PropertyRef Name="Id_estado" />
+            </Principal>
+            <Dependent Role="Clientes">
+              <PropertyRef Name="Id_estado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Eventos_ToClientes">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+          <End Role="Eventos" Type="Self.Eventos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="Id_cliente" />
+            </Principal>
+            <Dependent Role="Eventos">
+              <PropertyRef Name="Id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Eventos_ToEmpresas">
+          <End Role="Empresas" Type="Self.Empresas" Multiplicity="1" />
+          <End Role="Eventos" Type="Self.Eventos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresas">
+              <PropertyRef Name="Id_empresa" />
+            </Principal>
+            <Dependent Role="Eventos">
+              <PropertyRef Name="Id_empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Utilizadores_Evento_ToEventos">
+          <End Role="Eventos" Type="Self.Eventos" Multiplicity="1" />
+          <End Role="Utilizadores_Evento" Type="Self.Utilizadores_Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Eventos">
+              <PropertyRef Name="Id_evento" />
+            </Principal>
+            <Dependent Role="Utilizadores_Evento">
+              <PropertyRef Name="Id_evento" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Utilizadores_Evento_ToUtilizadores">
+          <End Role="Utilizadores" Type="Self.Utilizadores" Multiplicity="1" />
+          <End Role="Utilizadores_Evento" Type="Self.Utilizadores_Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Utilizadores">
+              <PropertyRef Name="Id_utilizadores" />
+            </Principal>
+            <Dependent Role="Utilizadores_Evento">
+              <PropertyRef Name="Id_utilizadores" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CRMModelStoreContainer">
+          <EntitySet Name="Cliente_Empresa" EntityType="Self.Cliente_Empresa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Empresas" EntityType="Self.Empresas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Estados" EntityType="Self.Estados" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Eventos" EntityType="Self.Eventos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Utilizadores" EntityType="Self.Utilizadores" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Utilizadores_Evento" EntityType="Self.Utilizadores_Evento" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Cliente_Empresa_ToClientes" Association="Self.FK_Cliente_Empresa_ToClientes">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Cliente_Empresa" EntitySet="Cliente_Empresa" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cliente_Empresa_ToEmpresas" Association="Self.FK_Cliente_Empresa_ToEmpresas">
+            <End Role="Empresas" EntitySet="Empresas" />
+            <End Role="Cliente_Empresa" EntitySet="Cliente_Empresa" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Clientes_ToEmpresas" Association="Self.FK_Clientes_ToEmpresas">
+            <End Role="Empresas" EntitySet="Empresas" />
+            <End Role="Clientes" EntitySet="Clientes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Clientes_ToEstados" Association="Self.FK_Clientes_ToEstados">
+            <End Role="Estados" EntitySet="Estados" />
+            <End Role="Clientes" EntitySet="Clientes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Eventos_ToClientes" Association="Self.FK_Eventos_ToClientes">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Eventos" EntitySet="Eventos" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Eventos_ToEmpresas" Association="Self.FK_Eventos_ToEmpresas">
+            <End Role="Empresas" EntitySet="Empresas" />
+            <End Role="Eventos" EntitySet="Eventos" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Utilizadores_Evento_ToEventos" Association="Self.FK_Utilizadores_Evento_ToEventos">
+            <End Role="Eventos" EntitySet="Eventos" />
+            <End Role="Utilizadores_Evento" EntitySet="Utilizadores_Evento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Utilizadores_Evento_ToUtilizadores" Association="Self.FK_Utilizadores_Evento_ToUtilizadores">
+            <End Role="Utilizadores" EntitySet="Utilizadores" />
+            <End Role="Utilizadores_Evento" EntitySet="Utilizadores_Evento" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CRMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="Id_cliente" />
+          </Key>
+          <Property Name="Id_cliente" Type="Int32" Nullable="false" />
+          <Property Name="Id_empresa" Type="Int32" Nullable="false" />
+          <Property Name="Id_estado" Type="Int32" Nullable="false" />
+          <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DN" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Morada" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Localidade" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Cod_postal" Type="String" MaxLength="8" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="NIF" Type="String" MaxLength="9" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Codigo" Type="Int32" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Telemovel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Empresas" Relationship="Self.FK_Clientes_ToEmpresas" FromRole="Clientes" ToRole="Empresas" />
+          <NavigationProperty Name="Estados" Relationship="Self.FK_Clientes_ToEstados" FromRole="Clientes" ToRole="Estados" />
+          <NavigationProperty Name="Eventos" Relationship="Self.FK_Eventos_ToClientes" FromRole="Clientes" ToRole="Eventos" />
+          <NavigationProperty Name="Empresas1" Relationship="Self.Cliente_Empresa" FromRole="Clientes" ToRole="Empresas" />
+        </EntityType>
+        <EntityType Name="Empresas">
+          <Key>
+            <PropertyRef Name="Id_empresa" />
+          </Key>
+          <Property Name="Id_empresa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cod_empresa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nome_empresa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Morada" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Localidade" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIF" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Telemovel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Clientes" Relationship="Self.FK_Clientes_ToEmpresas" FromRole="Empresas" ToRole="Clientes" />
+          <NavigationProperty Name="Eventos" Relationship="Self.FK_Eventos_ToEmpresas" FromRole="Empresas" ToRole="Eventos" />
+          <NavigationProperty Name="Clientes1" Relationship="Self.Cliente_Empresa" FromRole="Empresas" ToRole="Clientes" />
+        </EntityType>
+        <EntityType Name="Estados">
+          <Key>
+            <PropertyRef Name="Id_estado" />
+          </Key>
+          <Property Name="Id_estado" Type="Int32" Nullable="false" />
+          <Property Name="nome_estado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Clientes" Relationship="Self.FK_Clientes_ToEstados" FromRole="Estados" ToRole="Clientes" />
+        </EntityType>
+        <EntityType Name="Eventos">
+          <Key>
+            <PropertyRef Name="Id_evento" />
+          </Key>
+          <Property Name="Id_evento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_empresa" Type="Int32" Nullable="false" />
+          <Property Name="Id_cliente" Type="Int32" Nullable="false" />
+          <Property Name="Assunto" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Notas" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Data" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Clientes" Relationship="Self.FK_Eventos_ToClientes" FromRole="Eventos" ToRole="Clientes" />
+          <NavigationProperty Name="Empresas" Relationship="Self.FK_Eventos_ToEmpresas" FromRole="Eventos" ToRole="Empresas" />
+          <NavigationProperty Name="Utilizadores" Relationship="Self.Utilizadores_Evento" FromRole="Eventos" ToRole="Utilizadores" />
+        </EntityType>
+        <EntityType Name="Utilizadores">
+          <Key>
+            <PropertyRef Name="Id_utilizadores" />
+          </Key>
+          <Property Name="Id_utilizadores" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Telemovel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Previlegios" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Eventos" Relationship="Self.Utilizadores_Evento" FromRole="Utilizadores" ToRole="Eventos" />
+        </EntityType>
+        <Association Name="FK_Clientes_ToEmpresas">
+          <End Role="Empresas" Type="Self.Empresas" Multiplicity="1" />
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresas">
+              <PropertyRef Name="Id_empresa" />
+            </Principal>
+            <Dependent Role="Clientes">
+              <PropertyRef Name="Id_empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Clientes_ToEstados">
+          <End Role="Estados" Type="Self.Estados" Multiplicity="1" />
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Estados">
+              <PropertyRef Name="Id_estado" />
+            </Principal>
+            <Dependent Role="Clientes">
+              <PropertyRef Name="Id_estado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Eventos_ToClientes">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+          <End Role="Eventos" Type="Self.Eventos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="Id_cliente" />
+            </Principal>
+            <Dependent Role="Eventos">
+              <PropertyRef Name="Id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Eventos_ToEmpresas">
+          <End Role="Empresas" Type="Self.Empresas" Multiplicity="1" />
+          <End Role="Eventos" Type="Self.Eventos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empresas">
+              <PropertyRef Name="Id_empresa" />
+            </Principal>
+            <Dependent Role="Eventos">
+              <PropertyRef Name="Id_empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Cliente_Empresa">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+          <End Role="Empresas" Type="Self.Empresas" Multiplicity="*" />
+        </Association>
+        <Association Name="Utilizadores_Evento">
+          <End Role="Eventos" Type="Self.Eventos" Multiplicity="*" />
+          <End Role="Utilizadores" Type="Self.Utilizadores" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="CRMEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+          <EntitySet Name="Empresas" EntityType="Self.Empresas" />
+          <EntitySet Name="Estados" EntityType="Self.Estados" />
+          <EntitySet Name="Eventos" EntityType="Self.Eventos" />
+          <EntitySet Name="Utilizadores" EntityType="Self.Utilizadores" />
+          <AssociationSet Name="FK_Clientes_ToEmpresas" Association="Self.FK_Clientes_ToEmpresas">
+            <End Role="Empresas" EntitySet="Empresas" />
+            <End Role="Clientes" EntitySet="Clientes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Clientes_ToEstados" Association="Self.FK_Clientes_ToEstados">
+            <End Role="Estados" EntitySet="Estados" />
+            <End Role="Clientes" EntitySet="Clientes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Eventos_ToClientes" Association="Self.FK_Eventos_ToClientes">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Eventos" EntitySet="Eventos" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Eventos_ToEmpresas" Association="Self.FK_Eventos_ToEmpresas">
+            <End Role="Empresas" EntitySet="Empresas" />
+            <End Role="Eventos" EntitySet="Eventos" />
+          </AssociationSet>
+          <AssociationSet Name="Cliente_Empresa" Association="Self.Cliente_Empresa">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Empresas" EntitySet="Empresas" />
+          </AssociationSet>
+          <AssociationSet Name="Utilizadores_Evento" Association="Self.Utilizadores_Evento">
+            <End Role="Eventos" EntitySet="Eventos" />
+            <End Role="Utilizadores" EntitySet="Utilizadores" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CRMModelStoreContainer" CdmEntityContainer="CRMEntities">
+          <EntitySetMapping Name="Clientes">
+            <EntityTypeMapping TypeName="CRMModel.Clientes">
+              <MappingFragment StoreEntitySet="Clientes">
+                <ScalarProperty Name="Id_cliente" ColumnName="Id_cliente" />
+                <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+                <ScalarProperty Name="Id_estado" ColumnName="Id_estado" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="DN" ColumnName="DN" />
+                <ScalarProperty Name="Morada" ColumnName="Morada" />
+                <ScalarProperty Name="Localidade" ColumnName="Localidade" />
+                <ScalarProperty Name="Cod_postal" ColumnName="Cod_postal" />
+                <ScalarProperty Name="NIF" ColumnName="NIF" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Telemovel" ColumnName="Telemovel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Empresas">
+            <EntityTypeMapping TypeName="CRMModel.Empresas">
+              <MappingFragment StoreEntitySet="Empresas">
+                <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+                <ScalarProperty Name="Cod_empresa" ColumnName="Cod_empresa" />
+                <ScalarProperty Name="Nome_empresa" ColumnName="Nome_empresa" />
+                <ScalarProperty Name="Morada" ColumnName="Morada" />
+                <ScalarProperty Name="Localidade" ColumnName="Localidade" />
+                <ScalarProperty Name="NIF" ColumnName="NIF" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Telemovel" ColumnName="Telemovel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Estados">
+            <EntityTypeMapping TypeName="CRMModel.Estados">
+              <MappingFragment StoreEntitySet="Estados">
+                <ScalarProperty Name="Id_estado" ColumnName="Id_estado" />
+                <ScalarProperty Name="nome_estado" ColumnName="nome_estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Eventos">
+            <EntityTypeMapping TypeName="CRMModel.Eventos">
+              <MappingFragment StoreEntitySet="Eventos">
+                <ScalarProperty Name="Id_evento" ColumnName="Id_evento" />
+                <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+                <ScalarProperty Name="Id_cliente" ColumnName="Id_cliente" />
+                <ScalarProperty Name="Assunto" ColumnName="Assunto" />
+                <ScalarProperty Name="Notas" ColumnName="Notas" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Utilizadores">
+            <EntityTypeMapping TypeName="CRMModel.Utilizadores">
+              <MappingFragment StoreEntitySet="Utilizadores">
+                <ScalarProperty Name="Id_utilizadores" ColumnName="Id_utilizadores" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Telemovel" ColumnName="Telemovel" />
+                <ScalarProperty Name="Previlegios" ColumnName="Previlegios" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="Cliente_Empresa" TypeName="CRMModel.Cliente_Empresa" StoreEntitySet="Cliente_Empresa">
+            <EndProperty Name="Clientes">
+              <ScalarProperty Name="Id_cliente" ColumnName="Id_cliente" />
+            </EndProperty>
+            <EndProperty Name="Empresas">
+              <ScalarProperty Name="Id_empresa" ColumnName="Id_empresa" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="Utilizadores_Evento" TypeName="CRMModel.Utilizadores_Evento" StoreEntitySet="Utilizadores_Evento">
+            <EndProperty Name="Eventos">
+              <ScalarProperty Name="Id_evento" ColumnName="Id_evento" />
+            </EndProperty>
+            <EndProperty Name="Utilizadores">
+              <ScalarProperty Name="Id_utilizadores" ColumnName="Id_utilizadores" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

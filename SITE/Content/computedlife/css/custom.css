@@ -1,0 +1,454 @@
+﻿/**
+  * Custom Bootstrap 3 grid for 480-767px layout
+  * Author: Iftakhar Hasan
+  *
+  * A new set of column classes (with class prefix .col-ms- ) for Bootstrap 3
+  * to make Medium Small grids for supporting 480-767px
+  *
+  * This will push the default Bootstrap 3 Extra Small column (class prefix .col-xs- )
+  * to support 1-479px instead of 1-767px
+  */
+
+.col-ms-1,
+.col-ms-2,
+.col-ms-3,
+.col-ms-4,
+.col-ms-5,
+.col-ms-6,
+.col-ms-7,
+.col-ms-8,
+.col-ms-9,
+.col-ms-10,
+.col-ms-11,
+.col-ms-12 {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .container {
+        max-width: 748px;
+    }
+
+    .col-ms-1,
+    .col-ms-2,
+    .col-ms-3,
+    .col-ms-4,
+    .col-ms-5,
+    .col-ms-6,
+    .col-ms-7,
+    .col-ms-8,
+    .col-ms-9,
+    .col-ms-10,
+    .col-ms-11 {
+        float: left;
+    }
+   
+    .col-ms-1 {
+        width: 8.33333333%;
+    }
+
+    .col-ms-2 {
+        width: 16.66666667%;
+    }
+
+    .col-ms-3 {
+        width: 25%;
+    }
+
+    .col-ms-4 {
+        width: 33.33333333%;
+    }
+
+    .col-ms-5 {
+        width: 41.66666667%;
+    }
+
+    .col-ms-6 {
+        width: 50%;
+    }
+
+    .col-ms-7 {
+        width: 58.33333333%;
+    }
+
+    .col-ms-8 {
+        width: 66.66666667%;
+    }
+
+    .col-ms-9 {
+        width: 75%;
+    }
+
+    .col-ms-10 {
+        width: 83.33333333%;
+    }
+
+    .col-ms-11 {
+        width: 91.66666667%;
+    }
+
+    .col-ms-12 {
+        width: 100%;
+    }
+
+    .col-ms-pull-0 {
+        right: auto;
+    }
+
+    .col-ms-pull-1 {
+        right: 8.33333333%;
+    }
+
+    .col-ms-pull-2 {
+        right: 16.66666667%;
+    }
+
+    .col-sm-pull-3 {
+        right: 25%;
+    }
+
+    .col-sm-pull-4 {
+        right: 33.33333333%;
+    }
+
+    .col-sm-pull-5 {
+        right: 41.66666667%;
+    }
+
+    .col-sm-pull-6 {
+        right: 50%;
+    }
+
+    .col-sm-pull-7 {
+        right: 58.33333333%;
+    }
+
+    .col-ms-pull-8 {
+        right: 66.66666667%;
+    }
+
+    .col-ms-pull-9 {
+        right: 75%;
+    }
+
+    .col-ms-pull-10 {
+        right: 83.33333333%;
+    }
+
+    .col-ms-pull-11 {
+        right: 91.66666667%;
+    }
+
+    .col-ms-pull-12 {
+        right: 100%;
+    }
+
+    .col-ms-push-0 {
+        left: auto;
+    }
+
+    .col-ms-push-1 {
+        left: 8.33333333%;
+    }
+
+    .col-ms-push-2 {
+        left: 16.66666667%;
+    }
+
+    .col-sm-push-3 {
+        left: 25%;
+    }
+
+    .col-sm-push-4 {
+        left: 33.33333333%;
+    }
+
+    .col-sm-push-5 {
+        left: 41.66666667%;
+    }
+
+    .col-sm-push-6 {
+        left: 50%;
+    }
+
+    .col-sm-push-7 {
+        left: 58.33333333%;
+    }
+
+    .col-ms-push-8 {
+        left: 66.66666667%;
+    }
+
+    .col-ms-push-9 {
+        left: 75%;
+    }
+
+    .col-ms-push-10 {
+        left: 83.33333333%;
+    }
+
+    .col-ms-push-11 {
+        left: 91.66666667%;
+    }
+
+    .col-ms-push-12 {
+        left: 100%;
+    }
+
+    .col-ms-offset-0 {
+        margin-left: 0;
+    }
+
+    .col-ms-offset-1 {
+        margin-left: 8.33333333%;
+    }
+
+    .col-ms-offset-2 {
+        margin-left: 16.66666667%;
+    }
+
+    .col-ms-offset-3 {
+        margin-left: 25%;
+    }
+
+    .col-ms-offset-4 {
+        margin-left: 33.33333333%;
+    }
+
+    .col-ms-offset-5 {
+        margin-left: 41.66666667%;
+    }
+
+    .col-ms-offset-6 {
+        margin-left: 50%;
+    }
+
+    .col-ms-offset-7 {
+        margin-left: 58.33333333%;
+    }
+
+    .col-ms-offset-8 {
+        margin-left: 66.66666667%;
+    }
+
+    .col-ms-offset-9 {
+        margin-left: 75%;
+    }
+
+    .col-ms-offset-10 {
+        margin-left: 83.33333333%;
+    }
+
+    .col-ms-offset-11 {
+        margin-left: 91.66666667%;
+    }
+
+    .col-ms-offset-12 {
+        margin-left: 100%;
+    }
+}
+
+.icon-cog {
+    color: black;
+}
+
+/*.footer-margin {
+    margin-bottom:0px;
+}*/
+
+.fc-scroller .fc-day-grid-container {
+    min-height : 350px;
+}
+
+.limitheight {
+    min-height: 505px;
+}
+
+@media (max-width: 400px) {
+    .hidden-mobile-s {
+        display: none !important;
+    }
+}
+
+.space-between-divs {
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+.body-padding {
+    width: 100%;
+}
+
+.logout-size {
+    min-width: 0;
+    width: 144px !important;
+}
+
+.titleagenda {
+    margin-bottom: 30px;
+    margin-left: 13px;
+}
+
+.titlemargin {
+    margin-bottom: 30px;
+}
+
+.modal-backdrop {
+    z-index: 999 !important;
+}
+
+.modal-content {
+    border-radius: 7px;
+}
+
+.notification-bar {
+    right: 38px !important;
+    width: 170px !important;
+    left: 0 !important;
+}
+
+.logout-dropdown {
+    right: 0 !important;
+    width: 164px !important;
+}
+
+.footer-padding {
+    /*padding: 0px,0px,0px,0px!important;*/
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+}
+
+.logoutbutton {
+    width: 100%;
+    float: none;
+    border-top: 0px;
+    color: white;
+}
+
+.underline {
+    text-decoration: underline;
+    color: blue;
+}
+
+.agenda-padding {
+    padding-left: 0px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-size {
+    width: 27%;
+}
+
+/*@media (max-width: 990px) {
+    .notification-bar {
+        left: auto !important;
+    }
+}
+
+@media (max-width: 766px) {
+    .notification-bar {
+        right: 0 !important;
+    }
+
+}*/
+
+.padding-adjust {
+    padding-right: 0;
+}
+
+.tablebreak {
+    word-break: break-all;
+}
+
+.mtop {
+    margin-top : 75px;
+    width: 35%;
+}
+
+.logocomputedlife {
+    margin-top: 50px;
+}
+
+.computedlifebg {
+    background:
+    linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/Content/computedlife/img/login3.jpeg");
+}
+
+.thenvelope {
+    position: absolute;
+    z-index: 9999;
+    right: 35px;
+    bottom: 11px;
+}
+
+.thepassword {
+    position: absolute;
+    z-index: 9999;
+    right: 37px;
+    bottom: 11px;
+}
+
+#rememberme {
+    position: relative;
+    left: 7px;
+}
+
+/*@media (min-width: 800px) {
+    .box-header {
+        height: 50px;
+    }
+
+    .box-body {
+        padding-top: 60px;
+        height: 250px;
+    }
+}*/
+
+.inputradius:focus {
+    border-top: none;
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+}
+
+.topsearchbar {
+    margin: 7px 10px;
+    width: 250px;
+}
+
+.inputradius {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.buttonradius {
+    border-radius: 0px 6px 6px 0px !important;
+}
+
+@media (max-width: 404px) {
+    .main-sidebar {
+        top: 50px;
+    }
+}
+
+@media (max-width: 362px) {
+    .main-sidebar {
+        top: 100px;
+    }
+}
+
+.boxsize{
+    width:50%!important;
+}

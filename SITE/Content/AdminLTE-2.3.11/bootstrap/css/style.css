@@ -1,0 +1,48 @@
+﻿body {
+}
+
+.box-centered {
+    width: 460px !important;
+    height: 202px;
+    top: 46%;
+    left: 44%;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
+.checkbox-padding{
+    padding-right:35px;
+}
+
+.title-margin{
+    margin-left:-15px!important;
+}
+
+.body-padding{
+    padding-right:50px;
+}
+
+.space-between-divs{
+    margin-top:10px;
+}
+.id-width{
+    width:30%;
+}
+
+.calendar-margin{
+    margin-right:0px;
+}
+
+.logout-size {
+    min-width: 0;
+    width:144px!important;
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

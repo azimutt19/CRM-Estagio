@@ -1,0 +1,10 @@
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\bin\Debug\EF_DAL.dll.config
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\bin\Debug\EF_DAL.dll
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\bin\Debug\EF_DAL.pdb
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\bin\Debug\EntityFramework.dll
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\bin\Debug\EntityFramework.xml
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\obj\Debug\EF_DAL.csprojResolveAssemblyReference.cache
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\obj\Debug\EF_DAL.dll
+C:\Users\WORSTATION7\documents\visual studio 2017\Projects\CRMCLIFE\EF_DAL\obj\Debug\EF_DAL.pdb
